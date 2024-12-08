@@ -4,18 +4,21 @@ MinkBank is a Python-based console application designed to simulate basic bankin
 
 Features
 1. User Authentication
+
+
+
 -Login: Allows existing users to securely log in.
 -Register: New users can create an account with a username, password, and an initial balance of at least $1,000.
 -Password requirements include a minimum length of 8 characters, including uppercase, lowercase, digits, and special characters.
 
-3. Banking Operations
+2. Banking Operations
 -Transfer: Transfer funds to another registered user.
 -Withdraw: Withdraw a specific amount from your account balance.
 -Deposit: Add funds to your account.
 -Balance Inquiry: View your current account balance.
 -Update Information: Update your username or change your password.
 
-4. Data Persistence
+3. Data Persistence
 -User information is stored in a text file (storing_data.txt).
 -User data includes:
   -User ID
@@ -23,7 +26,7 @@ Features
   -Password
   -Balance
 
-5. Error Handling and Validation
+4. Error Handling and Validation
 -Input validations for username, password, and balance.
 -Prevents invalid or insufficient transactions.
 -Ensures secure storage and retrieval of user data.
