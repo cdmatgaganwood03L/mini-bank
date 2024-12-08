@@ -31,16 +31,20 @@ Ensures secure storage and retrieval of user data.
 
 
 How to Use
+
+
 Prerequisites
 Python must be higher than 3.8 installed on your machine.
 Python Library
 import re (for the special characters in order to validate the password or to ensure the passowrds )
 
 Hoe to Run
+
+
 For running the Application, 
 Clone this repository:
 ( Ensur that you have installed Git App to use git command line or User interface)
-  git clone https://github.com/your-username/minkbank.git,then
+  git clone https://github.com/your-username/minkbank.git, then,
   cd minkbank
 
 Run the program:
