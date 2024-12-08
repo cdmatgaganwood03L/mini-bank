@@ -59,6 +59,6 @@ Application Flow
 4: Update account details (username, password, or deposit funds).
 5: Exit the program.
 
-License
+License:
 This project is licensed under the MIT License.
 Enjoy MinkBank! 😊
