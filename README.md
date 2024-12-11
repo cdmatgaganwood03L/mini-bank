@@ -44,9 +44,12 @@ Hoe to Run
 For running the Application, 
 Clone this repository:
 ( Ensur that you have installed Git App to use git command line or User interface)
+
+
   git clone https://github.com/your-username/minkbank.git, then,
   
   cd minkbank
+  
 
 Run the program:
 python minkbank.py
