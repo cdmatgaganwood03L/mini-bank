@@ -38,7 +38,7 @@ Python must be higher than 3.8 installed on your machine.
 Python Library
 import re (for the special characters in order to validate the password or to ensure the passowrds )
 
-Hoe to Run
+How to Run
 
 
 For running the Application, 
