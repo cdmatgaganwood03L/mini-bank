@@ -64,23 +64,26 @@ Choose an Option:
   Press 2 to register.
   Press any alphabetic character to exit.
   
+  
 Login:
+
   Enter your username and password to access your account.
   
 Register:
+
   Provide a username, password, and initial balance to create an account.
   
 Bank Menu Options:
 
-1: Transfer funds to another user.
+   1: Transfer funds to another user.
 
-2: Withdraw money from your account.
+   2: Withdraw money from your account.
 
-3: View your account balance.
+   3: View your account balance.
 
-4: Update account details (username, password, or deposit funds).
+   4: Update account details (username, password, or deposit funds).
 
-5: Exit the program.
+   5: Exit the program.
 
 License:
 This project is licensed under the MIT License.
