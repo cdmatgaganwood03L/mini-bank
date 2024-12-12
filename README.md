@@ -69,6 +69,7 @@ Login:
 
   Enter your username and password to access your account.
   
+  
 Register:
 
   Provide a username, password, and initial balance to create an account.
