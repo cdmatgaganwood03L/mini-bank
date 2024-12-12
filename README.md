@@ -71,10 +71,15 @@ Register:
   Provide a username, password, and initial balance to create an account.
   
 Bank Menu Options:
+
 1: Transfer funds to another user.
+
 2: Withdraw money from your account.
+
 3: View your account balance.
+
 4: Update account details (username, password, or deposit funds).
+
 5: Exit the program.
 
 License:
