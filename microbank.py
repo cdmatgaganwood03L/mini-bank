@@ -102,6 +102,8 @@ class Minkbank:
             print("\n_____Login Successful!_____\n")
             self.current_user_id = existing_user_id
             self.bank_menu(existing_user_id)
+        else:
+            print("\nLogin failed. Please check your username and password.\n")
 
     def check_existing_user(self, username, password):
         user_check = len(self.main_userinfo)
@@ -150,7 +152,8 @@ class Minkbank:
         try:
             with open("storing_data.txt", "w") as file:
                 for user_id, info in userinfo.items():
-                    file.write(f"\n User ID: {user_id},\n Username: {info['username']},\n Password: {info['password']},\n Balance: {info['balance']}\n")
+                    print(f"Saving User ID: {user_id}, Username: {info['username']}, Balance: {info['balance']}") #info are being saved
+                    file.write(f"User ID: {user_id}, Username: {info['username']}, Password: {info['password']}, Balance: {info['balance']}\n")
         except Exception as error:
             print("Your information could not be stored.")
             print(f'An error occurred while saving user info: {error}')
@@ -171,6 +174,7 @@ class Minkbank:
                     password = parts[2].split(": ")[1]
                     balance = float(parts[3].split(": ")[1])
                     userinfo[user_id] = {"username": username, "password": password, "balance": balance}
+                    print(f"Loaded User ID: {user_id}, Username: {username}, Balance: {balance}")
                 return userinfo
             
         except Exception as error:
